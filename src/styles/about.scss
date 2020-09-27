@@ -28,3 +28,12 @@ $img-four: "https://images.pexels.com/photos/3992852/pexels-photo-3992852.jpeg?a
     }
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    p {
+      font-size: .8em;
+    }
+  }
+}

@@ -14,6 +14,11 @@
     align-content: center;
     background: white;
     width: 60%;
+    text-align: center;
+
+    h2 {
+      font-size: 4em;
+    }
   }
 }
 
@@ -23,6 +28,7 @@
   align-items: center;
   align-content: center;
   width: 100%;
+  height: 100%;
 
   .service-list-inner {
     display: flex;
@@ -31,7 +37,26 @@
     align-content: center;
 
     ul {
-      display: grid
+      display: grid;
+      font-size: 1.3em;
+      width: 100%;
+      height: 300px;
+      
+      li {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service-container {
+    li {
+      font-size: 1em;
     }
   }
 }

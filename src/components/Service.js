@@ -98,7 +98,7 @@ export default class Service extends Component {
     return (
       <div className="service-container">
         <div className="service-inner">
-          <h4>Services</h4>
+          <h2>Services</h2>
           <div className="service-list-container">
             <h3>ADOLESCENT (2-17)</h3>
             <div className="service-list-inner">
