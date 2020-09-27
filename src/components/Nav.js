@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import "../styles/main.scss";
 
-import { FaFacebook, FaTwitter, FaInstagram, FaYelp } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaYelp, FaGithub } from 'react-icons/fa';
 
 export default class Nav extends Component {
   render() {
@@ -18,13 +18,26 @@ export default class Nav extends Component {
         </div>
         <div className="nav-socials-container">
           <ul>
-            <li><FaFacebook /></li>
-            <li><FaInstagram /></li>
-            <li><FaTwitter /></li>
-            <li><FaYelp /></li>
+            <a href="https://www.facebook.com/estelo.abellanosa" target="_blank">
+              <li><FaFacebook /></li>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <li><FaInstagram /></li>
+            </a>
+            <a href="https://twitter.com/EsteloManitoba" target="_blank">
+              <li><FaTwitter /></li>
+            </a>
+            <a href="https://biz.yelp.com/" target="_blank">
+              <li><FaYelp /></li>
+            </a>
+            <a href="https://github.com/estelo2jz/barberrevise" target="_blank">
+              <li><FaGithub /></li>
+            </a>
           </ul>
           <div>
-            <p>Book Appointment</p>
+            <a href="https://booksy.com/en-us/" target="_blank">
+              <p>Book Appointment</p>
+            </a>
           </div>
         </div>
       </div>

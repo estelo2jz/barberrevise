@@ -18,16 +18,21 @@ $img-three: "https://images.pexels.com/photos/3993294/pexels-photo-3993294.jpeg?
   align-items: center;
   align-content: center;
   width: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .pic-bg-one {
     position: relative;
-    background-image: url($img-one); 
     height: 500px;
     width: 100%;
     margin: 1px;
   }
   .pic-bg-two {
     position: relative;
-    background-image: url($img-two);
     height: 500px;
     width: 100%;
     margin: 1px;
@@ -35,7 +40,6 @@ $img-three: "https://images.pexels.com/photos/3993294/pexels-photo-3993294.jpeg?
   }
   .pic-bg-three {
     position: relative;
-    background-image: url($img-three);
     height: 500px;
     width: 100%;
     margin: 1px;

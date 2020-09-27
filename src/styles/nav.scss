@@ -4,12 +4,21 @@
   padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
   height: 20%;
+  position: sticky;
+}
+
+a {
+  color: white;
 }
 
 ul {
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 
     li {
       margin: 5px;
@@ -18,6 +27,10 @@ ul {
 }
 
 .nav-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .nav-socials-container {
