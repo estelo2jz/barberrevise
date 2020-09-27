@@ -1,0 +1,15 @@
+@import "./nav.scss";
+@import "./background.scss";
+@import "./about.scss";
+@import "./visit.scss";
+@import "./services.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  overflow: hidden;
+}

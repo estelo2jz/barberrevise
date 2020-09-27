@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #151616;
+  font-family: roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import './styles/main.scss';
+@import './styles/hours.scss';
+@import './styles/blog.scss';

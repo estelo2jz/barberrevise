@@ -1,0 +1,26 @@
+.nav-container {
+  color: white;
+  background-color: 333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      margin: 5px;
+      list-style: none;
+    }
+}
+
+.nav-links-container {
+}
+
+.nav-socials-container {
+  display: flex;
+  justify-content: center;
+}

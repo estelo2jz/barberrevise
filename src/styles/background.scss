@@ -1,0 +1,58 @@
+$img-one: "https://images.pexels.com/photos/3992878/pexels-photo-3992878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+$img-two: "https://images.pexels.com/photos/3998416/pexels-photo-3998416.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+$img-three: "https://images.pexels.com/photos/3993294/pexels-photo-3993294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+
+.background-container {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 400px;
+  width: 100vw;
+  overflow: hidden;
+}
+.background-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  .pic-bg-one {
+    position: relative;
+    background-image: url($img-one); 
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin: 1px;
+  }
+  .pic-bg-two {
+    position: relative;
+    background-image: url($img-two);
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin: 1px;
+
+  }
+  .pic-bg-three {
+    position: relative;
+    background-image: url($img-three);
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin: 1px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .background-container {
+    display: grid;
+    .background-inner {
+      width: 100px;
+      height: 100px;
+      display: grid;
+    }
+  }
+}
